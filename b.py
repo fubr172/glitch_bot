@@ -14,7 +14,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 
 # Конфигурация бота
-BOT_TOKEN = os.getenv('BOT_TOKEN') # Замените на токен вашего бота
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 SETTINGS_CHANNEL_ID = os.getenv('SETTINGS_CHANNEL_ID')
 ROLE_ID = os.getenv('ROLE_ID')
 
